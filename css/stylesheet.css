@@ -1,0 +1,141 @@
+/* header */
+#top a{
+    position: absolute;
+    z-index: -1;
+}
+
+#top a:focus{
+    background-color: black;
+    z-index: 1;
+}
+
+/* banner */
+#chiBanner{
+    background-image: url(../images/chiBanner.png);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content div:nth-child(1){
+    font-size: 200px;
+    text-transform: uppercase;
+    text-shadow: 10px 2px rgb(0, 0, 0);
+}
+
+#calBanner{
+    background-image: url(../images/calBanner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seaBanner{
+    background-image: url(../images/seaBanner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav bar */
+.pageNav a{
+    color: black;
+    font-size: 30px;
+}
+
+.pageNav{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+}
+
+.pageNav a:hover{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* body */
+body{
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 20px 20px;
+}
+
+#main{
+    margin: 70px 200px;
+}
+
+/* body content */
+h1{
+    text-align: center;
+}
+
+p{
+    padding: 20px 20px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h3{
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+li{ 
+    padding: 18px;
+}
+
+ /* links */
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+a:hover{
+    color: red;
+}
+
+/* gallery */
+.gallery{
+    display: inline-block;
+    /* border: 1px solid white; */
+    margin: 5px;
+    width: 20%;
+    align-items: center;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
